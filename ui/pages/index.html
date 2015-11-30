@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../js/bootstrap-3.3.5/dist/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="../js/bootstrap-3.3.5/dist/css/bootstrap-theme.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="../js/bootstrap-3.3.5/js/tests/vendor/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="../js/bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+
+</head>
+<body>
+<div class="container">
+    <h1>简单博客模版</h1>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">主页</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">分类1 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">分类2</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">登录</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">我的 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">发表文章</a></li>
+                            <li><a href="#">我的文章</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">修改信息</a></li>
+                            <li><a href="#">修改头像</a></li>
+                            <li><a href="#">修改密码</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id='content' class='row-fluid'>
+        <div class='col-md-8 article_main'>
+            <h2>Main Content Section</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil
+                imperdiet doming id quod mazim placerat facer possim assum.</p>
+
+            <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes
+                demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,
+                qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus
+                parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+                Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+        </div>
+        <div class='col-md-4'>
+            <h3>文章分类</h3>
+
+            <div class="list-group">
+                <a href="#" class="list-group-item active">
+                    Cras justo odio
+                </a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="col-md-12">
+        <div class="container footer-base">
+            <p>
+                XX版权所有@2015-2020
+            </p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
