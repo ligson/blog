@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="../js/bootstrap-3.3.5/dist/css/bootstrap.min.css">
     <!-- 可选的Bootstrap主题文件（一般不用引入） -->
     <link rel="stylesheet" href="../js/bootstrap-3.3.5/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../js/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css">
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
     <script src="../js/bootstrap-3.3.5/js/tests/vendor/jquery.min.js"></script>
 
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="../js/bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
-    <script src="../js/bootstrap-3.3.5/js/popover.js"></script>
+    <script src="../js/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js"></script>
     <script src="../js/my/article.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/base.css">
 
@@ -56,8 +57,9 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">登录</a></li>
-                    <li class="dropdown">
+                    <li><a href="#" data-toggle="modal" data-target="#loginModal">登录</a></li>
+                    <!--<li><a href="#">注册</a></li>-->
+                    <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">我的 <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -68,7 +70,7 @@
                             <li><a href="#">修改头像</a></li>
                             <li><a href="#">修改密码</a></li>
                         </ul>
-                    </li>
+                    </li>-->
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -150,6 +152,164 @@
             </div>
             <div class="article_comments">
                 <h3 style="border-bottom:1px solid silver;">评论</h3>
+
+                <div class="comment_box col-md-12">
+                    <textarea class="col-md-9"></textarea>
+                    <button style="margin-left:10px;" class="btn  btn-default col-md-2" type="submit">发表评论</button>
+                </div>
+                <div class="comment_items col-md-12">
+                    <ul class="media-list">
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                         alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Media heading</h5>
+
+                                <p>xxxxxxxxxxxxxxxxxxxxxx</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <nav>
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
         <div class='col-md-4'>
@@ -173,5 +333,68 @@
         </div>
     </footer>
 </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
+                                                              data-toggle="tab">登录</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                                               data-toggle="tab">注册</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home" style="padding:10px;">
+                        <form action="/index/checkLogin" name="login_form" class="form-horizontal">
+                            <div class="form-group has-feedback">
+                                <div class="col-md-8">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="text" class="form-control" id="name" name="name"
+                                           placeholder="请输入邮箱或者手机号"
+                                           autocomplete="off" value=""/>
+                                </div>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <div class="col-md-8">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="password" class="form-control" id="password" name="password"
+                                           placeholder="密码"
+                                           autocomplete="off"/>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-8">
+                                    <div class="alert alert-danger">xxxxxxxxx</div>
+                                </div>
+
+                                <div class="col-md-4 text-center">
+                                    <a href="/index/forgotpassword" class="pull-right"
+                                       style="margin-top:10px;margin-left:10px;">忘记密码?</a>
+                                    <input type="submit" class="pull-right btn btn-large btn-primary" value="登录"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

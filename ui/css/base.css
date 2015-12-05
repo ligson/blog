@@ -40,6 +40,12 @@ header {
     height: 100px;
 }
 
+.user_photo_little {
+    width: 64px;
+    height: 64px;
+}
+
+
 .user_info {
     margin-top: 50px;
 }
@@ -87,4 +93,8 @@ header {
     height: 30px;
     font-size: 12px;
     float:left;
+}
+
+.comment_items{
+    margin-top:10px;
 }

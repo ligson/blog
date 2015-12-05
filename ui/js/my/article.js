@@ -3,5 +3,7 @@
  */
 $(function () {
     //var shareBtn = $("#shareBtn");
-
+    $("#loginBtn").click(function () {
+        alert("----");
+    })
 });
