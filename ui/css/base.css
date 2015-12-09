@@ -98,3 +98,12 @@ header {
 .comment_items{
     margin-top:10px;
 }
+.comment_item{
+    border-top:1px solid silver;
+    padding:5px;
+}
+
+.comment_box{
+    resize:none;
+    width:100%;
+}
