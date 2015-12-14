@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!--#include file="include/res.shtml"-->
+</head>
+<body>
+<div class="container">
+    <!--#include file="include/header.shtml"-->
+    <div class='row-fluid'>
+        <div class='col-md-9 article_main'>
+            <h2 class="article_title">Main Content Section</h2>
+
+            <div class="article_desc">
+                <span>&nbsp;&nbsp;分类：<a href="#">分类1</a></span><span class="pull-right">发表于2012年3月3日 11:11:33&nbsp;&nbsp;</span>
+            </div>
+            <div class="article_content">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor
+                    in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+                    at
+                    vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                    dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil
+                    imperdiet doming id quod mazim placerat facer possim assum.</p>
+
+                <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+                    Investigationes
+                    demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus
+                    dynamicus,
+                    qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc
+                    putamus
+                    parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+                    Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+            </div>
+            <div class="article_footer">
+                <div class="item_icon pull-right" style="margin-left:5px;" id="shareBtn">
+                    <span class="icon-text">&nbsp;分享至</span>
+
+                    <div class="bdsharebuttonbox" style="display:inline-block;margin-left:10px;"><a href="#"
+                                                                                                    class="bds_more"
+                                                                                                    data-cmd="more"></a><a
+                            href="#"
+                            class="bds_qzone"
+                            data-cmd="qzone"
+                            title="分享到QQ空间"></a><a
+                            href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq"
+                                                                                               data-cmd="tqq"
+                                                                                               title="分享到腾讯微博"></a><a
+                            href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#"
+                                                                                                class="bds_weixin"
+                                                                                                data-cmd="weixin"
+                                                                                                title="分享到微信"></a></div>
+                    <script>window._bd_share_config = {
+                        "common": {
+                            "bdSnsKey": {},
+                            "bdText": "",
+                            "bdMini": "2",
+                            "bdMiniList": false,
+                            "bdPic": "",
+                            "bdStyle": "1",
+                            "bdSize": "16"
+                        }, "share": {}
+                    };
+                    with (document)0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+                </div>
+
+
+                <!--<div class="popover"  id="sharePopover">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">222</h3>
+
+                    <div class="popover-content">
+                        222222
+                    </div>
+                </div>-->
+
+                <div class="item_icon pull-right">
+                    <span class="icon icon-fav"></span>
+                    <span class="icon-text">&nbsp;收藏</span>
+                </div>
+            </div>
+            <div class="article_comments">
+                <h3 style="border-bottom:1px solid silver;">评论</h3>
+
+                <div class="comment_box col-md-12">
+                    <label class="col-md-9">
+                        <textarea class="comment_box" rows="5"></textarea>
+                    </label>
+                    <button style="margin-left:10px;" class="btn  btn-default col-md-2" type="submit">发表评论</button>
+                </div>
+                <div class="comment_items col-md-12">
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+                    <div class="comment_item media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object user_photo_little" src="../images/user-default.jpg"
+                                     alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body media-right">
+                            <h4 class="media-heading">Media heading
+                                <button type="button" class="btn btn-default btn-xs pull-right ">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+                                </button>
+                            </h4>
+
+                            <p>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                                asdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdfasdfsdfsdfsdf
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                                in faucibus
+                            </p>
+
+                            <div class="media-heading"><span class="pull-right">三个月前发表</span></div>
+                        </div>
+                    </div>
+
+                    <nav class="pull-right">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-3'>
+            <h3>相关文章</h3>
+
+            <div class="list-group">
+                <a href="#" class="list-group-item">Cras justo odio</a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </div>
+        </div>
+    </div>
+    <!--#include file="include/footer.shtml"-->
+</div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<footer class="col-md-12">
+    <div class="container footer-base">
+        <p>
+            XX版权所有@2015-2020
+        </p>
+    </div>
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
+                                                              data-toggle="tab">登录</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                                               data-toggle="tab">注册</a></li>
+                    <li class="pull-right">
+                        <button type="button" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home" style="padding:10px;">
+                        <form action="/index/checkLogin" name="login_form" class="form-horizontal" id="login_form">
+                            <div class="form-group has-feedback">
+                                <div class="col-md-12">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="text" class="form-control" id="name0" name="name"
+                                           placeholder="请输入邮箱或者手机号"
+                                           autocomplete="off" value=""/>
+                                </div>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <div class="col-md-12">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="password" class="form-control" id="password0" name="password"
+                                           placeholder="密码"
+                                           autocomplete="off"/>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-8">
+                                    <div class="alert alert-danger">xxxxxxxxx</div>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <a href="/index/forgotpassword" class="pull-right"
+                                       style="margin-top:10px;margin-left:10px;">忘记密码?</a>
+                                    <input type="submit" class="pull-right btn btn-large btn-primary" value="登录"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile" style="padding:10px;">
+                        <form action="/index/checkLogin" name="reg_form" class="form-horizontal" id="reg_form">
+                            <div class="form-group has-feedback">
+                                <div class="col-md-12">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="text" class="form-control" id="nickName1" name="nickName"
+                                           placeholder="请输入昵称"
+                                           autocomplete="off" value=""/>
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <div class="col-md-12">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="text" class="form-control" id="mobile1" name="mobile"
+                                           placeholder="请输入手机号"
+                                           autocomplete="off" value=""/>
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <div class="col-md-12">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="text" class="form-control" id="email1" name="email"
+                                           placeholder="请输入邮箱地址"
+                                           autocomplete="off" value=""/>
+                                </div>
+                            </div>
+
+                            <div class="form-group has-feedback">
+                                <div class="col-md-12">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-eye-close form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="password" class="form-control" id="password1" name="password"
+                                           placeholder="请输入密码"
+                                           autocomplete="off"/>
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <div class="col-md-12">
+                                    <i></i>
+                                    <span class="glyphicon glyphicon-eye-close form-control-feedback"></span>
+                                    <input style="display:none;"/>
+                                    <input type="password" class="form-control" id="password2" name="password2"
+                                           placeholder="请再次输入密码"
+                                           autocomplete="off"/>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-8">
+                                    <div class="alert alert-danger">xxxxxxxxx</div>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <input type="submit" class="pull-right btn btn-large btn-primary" value="注册"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
