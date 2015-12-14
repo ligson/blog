@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!--#include file="include/res.shtml"-->
+</head>
+<body>
+<div class="container">
+    <!--#include file="include/header.shtml"-->
+    <div class='row-fluid'>
+        <div class="col-md-12 panel panel-default" style="padding:10px;">
+            <form class="form">
+                <div class="form-group">
+                    <label for="disabledTextInput">标题</label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                </div>
+                <div class="form-group">
+                    <label for="disabledTextInput1">内容</label>
+                    <input type="text" id="disabledTextInput1" class="form-control" placeholder="Disabled input">
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <!--#include file="include/footer.shtml"-->
+</div>
+</body>
+</html>
