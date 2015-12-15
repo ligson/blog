@@ -39,6 +39,10 @@ header {
     width: 100px;
     height: 100px;
 }
+.user_photo_big{
+    width: 200px;
+    height: 200px;
+}
 
 .user_photo_little {
     width: 64px;
@@ -63,7 +67,7 @@ header {
     cursor: pointer;
 }
 
-.icon {
+.share-icons {
     display: block;
     width: 19px;
     height: 18px;
@@ -106,4 +110,7 @@ header {
 .comment_box{
     resize:none;
     width:100%;
+}
+.tab-pane{
+    padding:10px;
 }

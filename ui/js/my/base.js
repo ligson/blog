@@ -2,6 +2,20 @@
  * Created by ligson on 2015/12/9.
  * base
  */
+
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_DEFAULT] = '信息提示';
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_INFO] = '信息提示';
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_PRIMARY] = '信息提示';
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_SUCCESS] = '成功';
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_WARNING] = '警告';
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_DANGER] = '危险';
+BootstrapDialog.DEFAULT_TEXTS['OK'] = '确定';
+BootstrapDialog.DEFAULT_TEXTS['CANCEL'] = '取消';
+BootstrapDialog.DEFAULT_TEXTS['CONFIRM'] = '确认';
+
+window.alert = function (msg) {
+    BootstrapDialog.alert(msg);
+};
 $(function () {
     $("#login_form").bootstrapValidator({
         message: '输入格式不正确！',
@@ -72,14 +86,14 @@ $(function () {
             password: {
                 validators: {
                     notEmpty: {
-                        message: '密码禁止为空！'
+                        message: '密码不能为空！'
                     }
                 }
             },
             password2: {
                 validators: {
                     notEmpty: {
-                        message: '密码禁止为空！'
+                        message: '不能为空！'
                     },
                     identical: {
                         field: 'password',

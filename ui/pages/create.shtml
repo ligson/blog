@@ -3,7 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"/>
     <!--#include file="include/res.shtml"-->
+    <link href="../js/summernote/dist/summernote.css" rel="stylesheet">
+    <!-- include summernote css/js-->
+    <script src="../js/summernote/dist/summernote.min.js"></script>
+    <script src="../js/summernote/lang/summernote-zh-CN.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../js/bootstrap-select/css/bootstrap-select.min.css"/>
+    <script type="text/javascript" src="../js/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('.summernote').summernote({
+                height: 500,
+                lang: 'zh-CN'
+            });
+
+            $('form').on('submit', function (e) {
+                e.preventDefault();
+                alert($('.summernote').summernote('code'));
+                alert($('.summernote').val());
+            });
+        });
+    </script>
 </head>
 <body>
 <div class="container">
@@ -12,14 +35,23 @@
         <div class="col-md-12 panel panel-default" style="padding:10px;">
             <form class="form">
                 <div class="form-group">
-                    <label for="disabledTextInput">标题</label>
-                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                    <label for="title">标题:</label>
+                    <input type="text" id="title" class="form-control" placeholder="请输入标题">
                 </div>
                 <div class="form-group">
-                    <label for="disabledTextInput1">内容</label>
-                    <input type="text" id="disabledTextInput1" class="form-control" placeholder="Disabled input">
+                    <label for="category">分类:</label>
+                    <select class="form-control selectpicker" name="category" id="category" data-style="btn-inverse">
+                        <option value="1">分类1</option>
+                        <option value="2">分类2</option>
+                        <option value="2">分类3</option>
+                        <option value="2">分类4</option>
+                    </select>
                 </div>
-
+                <div class="form-group">
+                    <label for="content">内容:</label>
+                    <textarea id="content" class="form-control summernote" placeholder="请输入文章内容"></textarea>
+                </div>
+                <button type="submit" class="btn  btn-primary pull-right">发布</button>
             </form>
         </div>
     </div>

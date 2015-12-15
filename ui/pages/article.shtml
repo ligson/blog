@@ -78,7 +78,7 @@
                 </div>-->
 
                 <div class="item_icon pull-right">
-                    <span class="icon icon-fav"></span>
+                    <span class="share-icons icon-fav"></span>
                     <span class="icon-text">&nbsp;收藏</span>
                 </div>
             </div>

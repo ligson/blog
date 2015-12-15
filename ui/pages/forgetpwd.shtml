@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>忘记密码</title>
+    <!--#include file="include/res.shtml"-->
+</head>
+<body>
+<div class="container">
+    <!--#include file="include/header.shtml"-->
+    <div class='row-fluid'>
+        <div class="col-md-12 panel panel-default" style="padding:10px;">
+            <form action="/index/checkLogin" name="reg_form" class="form-horizontal" id="forget_pwd_form">
+                <div class="form-group has-feedback">
+                    <label class="col-lg-3 control-label">邮箱:</label>
+
+                    <div class="col-lg-5">
+                        <i></i>
+                        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                        <input style="display:none;"/>
+                        <input type="text" class="form-control" id="password21" name="password"
+                               placeholder="请输入邮箱"
+                               autocomplete="off"/>
+                    </div>
+                    <div class="col-lg-2">
+                        <button class="btn btn-default" type="button">发送验证码</button>
+                    </div>
+                </div>
+                <div class="form-group has-feedback">
+                    <label class="col-lg-3 control-label">验证码:</label>
+
+                    <div class="col-lg-5">
+                        <i></i>
+                        <span class="glyphicon glyphicon-info-sign form-control-feedback"></span>
+                        <input style="display:none;"/>
+                        <input type="password" class="form-control" id="validCode22" name="password"
+                               placeholder="请输入验证码"
+                               autocomplete="off"/>
+                    </div>
+                    <div class="col-lg-2">
+                        <button class="btn btn-default" type="button" disabled="disabled">再次发送(60s)</button>
+                    </div>
+                </div>
+
+                <div class="form-group has-feedback">
+                    <label class="col-lg-3 control-label">输入新密码:</label>
+
+                    <div class="col-lg-5">
+                        <i></i>
+                        <span class="glyphicon glyphicon-eye-close form-control-feedback"></span>
+                        <input style="display:none;"/>
+                        <input type="password" class="form-control" id="password22" name="password"
+                               placeholder="请输入新密码"
+                               autocomplete="off"/>
+                    </div>
+                </div>
+
+
+                <div class="form-group has-feedback">
+                    <label class="col-lg-3 control-label">再次输入新密码:</label>
+
+                    <div class="col-lg-5">
+                        <i></i>
+                        <span class="glyphicon glyphicon-eye-close form-control-feedback"></span>
+                        <input style="display:none;"/>
+                        <input type="password" class="form-control" id="password23" name="password2"
+                               placeholder="请再次输入密码"
+                               autocomplete="off"/>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-3">
+                        <div class="alert alert-danger">xxxxxxxxx</div>
+                    </div>
+                    <div class="col-lg-1 text-center">
+                        <input type="submit" class="pull-right btn btn-large btn-primary" value="修改"/>
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--#include file="include/footer.shtml"-->
+</div>
+</body>
+</html>

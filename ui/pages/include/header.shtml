@@ -29,11 +29,9 @@
                        aria-expanded="false">我的 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="./create.shtml">发表文章</a></li>
-                        <li><a href="#">我的文章</a></li>
+                        <li><a href="./article_list.shtml">我的文章</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">修改信息</a></li>
-                        <li><a href="#">修改头像</a></li>
-                        <li><a href="#">修改密码</a></li>
+                        <li><a href="./profiles.shtml">设置</a></li>
                     </ul>
                 </li>
             </ul>
